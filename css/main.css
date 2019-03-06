@@ -98,10 +98,98 @@ textarea {
    ========================================================================== */
 
 
+/* ------------- Base Header - Foot Styles ------------- */
 
+header,
+footer {
 
+}
 
+/* Header Styles */ 
 
+header {
+
+}
+
+header .content-wrapper {
+
+}
+
+header .header-divider {
+
+}
+
+header .nav {
+
+}
+
+/* ------------- Mobile Styles - Homepage ------------- */
+
+/* Main Styles */
+.hero-area {
+
+}
+
+aside {
+
+}
+
+.form-description {
+
+}
+
+.form {
+
+}
+
+.features {
+
+}
+
+.features-item-description {
+
+}
+
+p .fontawesome-icon {
+
+}
+
+p .features-item-description {
+
+}
+
+article {
+
+}
+
+.reviews {
+
+}
+
+.LaCrue {
+
+}
+
+/* Footer Styles */
+
+.footer-content {
+
+}
+
+.contact {
+
+}
+
+.social {
+
+}
+ .social-icons {
+
+ }
+
+ .copyright {
+     
+ }
 
 
 
