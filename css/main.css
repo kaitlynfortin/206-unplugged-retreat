@@ -139,8 +139,15 @@ header nav ul {
     justify-content: center;
     align-items: center;
     width: 45%;
+    text-decoration: none;
 }
 
+header nav ul li {
+    text-decoration: none;
+    display: inline;
+    padding: 0 60px 0 0;
+  }
+  
 /* ------------- Mobile Styles - Homepage ------------- */
 
 /* Main Styles */
