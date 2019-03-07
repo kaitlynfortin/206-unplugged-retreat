@@ -122,7 +122,7 @@ header .content-wrapper {
 }
 
 header .header-divider {
-
+    width: 88%;
 }
 
 header nav {
@@ -130,12 +130,14 @@ header nav {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
 }
 
 header nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 45%;
 }
 
 /* ------------- Mobile Styles - Homepage ------------- */
@@ -177,6 +179,10 @@ features .features-items {
     flex-flow: row wrap;
 }
 
+features article {
+    width: 45%;
+}
+
 .features-item-description {
 
 }
@@ -200,8 +206,8 @@ article {
     flex-flow: row wrap;
 }
 
-.LaCrue {
-
+.reviews h3 {
+    width: 48%;
 }
 
 
@@ -211,8 +217,13 @@ article {
 
 /* Footer Styles */
 
-.footer-content {
-
+footer .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 55%; 
+    margin: 50px 0;
 }
 
 .contact-section {
