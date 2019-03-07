@@ -111,7 +111,7 @@ footer {
 /* Header Styles */ 
 
 header {
-
+    padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -119,6 +119,7 @@ header .content-wrapper {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
 }
 
 header .header-divider {
@@ -148,6 +149,7 @@ header nav ul {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 50px 20px;
 }
 
 aside {
@@ -155,6 +157,7 @@ aside {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 30px 20px;
 }
 
 .form-description {
@@ -162,7 +165,7 @@ aside {
 }
 
 .form {
-
+    padding: 40px 0;
 }
 
 .features {
@@ -170,6 +173,7 @@ aside {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 50px 20px;
 }
 
 features .features-items {
@@ -179,11 +183,17 @@ features .features-items {
     flex-flow: row wrap;
 }
 
-features article {
-    width: 45%;
+features .article {
+
+}
+
+features p {
+    margin: 0;
 }
 
 .features-item-description {
+    width: 55%;
+    padding: 60px 20px;
 
 }
 
@@ -204,10 +214,11 @@ article {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 50px 20px;
 }
 
 .reviews h3 {
-    width: 48%;
+    width: 66%;
 }
 
 
@@ -231,6 +242,10 @@ footer .content-wrapper {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+}
+
+footer p {
+    margin: 0;
 }
 
 footer .social {
