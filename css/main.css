@@ -380,92 +380,165 @@ footer .social {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-    /*Tablet styles here*/
-    /* General styles */
-    .content-wrapper {
+    /*---- Tablet styles here ----*/
+    
+    /*---- General styles ----*/
+    header .content-wrapper {
         max-width: 640px;
         margin: 100px 0;
     }
 
-    /* Header */
+    /*---- Header ----*/
     header {
         width: 640px;
-        margin: 0;
-
-
     }
 
     header .content-wrapper {
         width: 320px;
-
-    }
-
-    header nav {
-        width: 160px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        flex-flow: row;
     }
 
     header nav ul {
-        width: 80px;
+      padding-left: 190px;
+      justify-content: right;
+    }
+    
+    .form {
+      padding: 0 40px;
+      margin: 0;
     }
 
-    .header-divider {
-        display: none;
-    }
 
-    /*Hero Area */
-
-    /* Aside */
+    /* ---- Aside ----*/
+    
     aside .content-wrapper {
         margin: 50px 0;
     }
 
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {
-        width: 
         margin: 0;
     }
 
-    /* Features */
+    aside {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+      }
+  
+     aside .content-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
+        padding: 0 40px;
+      } 
 
-    .features article {
+    /*---- Features ----*/
 
+    .features {
+        width: 75%;
+        padding: 0 60px
+      }
+  
+    .features-item-description {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-flow: row wrap;
+          width: 75%;
+          margin: 0px 20px;
+      }
+  
+    p.features-item-description {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-flow: row wrap;
+          width: 160px;
+          padding: 0px;
+      } 
+
+    /*---- Reviews ----*/
+    
+    .reviews {
+      padding: 0;
     }
 
-    .features .features-item-description {
-        width: 
-    }
-
-    /* Reviews */
     .reviews article {
-
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
     }
 
     .reviews article div {
-        width: 
+        width: 50%;
     }
 
-    /* Footer */
+    .reviews p {
+      width: 50%;
+    }
+
+    .reviews .content-wrapper {
+      margin: 0 100px;
+    }
+
+    /*---- Footer ----*/
+    
+    footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+      width: 100%;
+      margin: 0px;
+    }
+
     footer .content-wrapper {
-        width:
-        margin: 100px 0;
+        display: flex;
+        justify-content: center;
+        flex-flow: row;
+        margin: 0;
+        padding: 0 100px;
+        width: 100%;
+
     }
-
-    .footer-content {
-
-    }
-
+/*
     footer .contact {
-        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        padding: 0px;
+        margin: 0px;
+        width: 160px;
     }
 
-    footer .copyright {
-        width: 
+    footer .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        width: 160px;
     }
+
+    footer p {
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
+      margin: 0px;
+    } */
 }
+
 
 @media only screen and (min-width: 1200px) {
     /*Desktop styles here*/
 }
+
+
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
