@@ -491,7 +491,6 @@ footer .social {
 footer .content-wrapper {
         width: 65%;
         margin: 100px 0;
-
 }
 
 .footer-content {
@@ -505,6 +504,55 @@ footer .contact {
 }
 
 footer .copyright {
+    width: 100%;
+}
+
+/* ==========================================================================
+   About Page - Tablet
+   ========================================================================== */
+ 
+   .mission-content {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 640px;
+}
+
+.mission-content p {
+    width: 320px;
+}
+
+
+.contact-section, .content-wrapper h2 {
+    width: 640px;
+    padding: 0 60px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 0 60px;
+    
+}
+.contact-content div {
+  padding: 0 50px 0 0;
+}
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+   .faq .content-wrapper {
+    justify-content: space-between;
+}
+
+.faq-content {
+    flex-basis: 40%;
+}
+
+.faq h2 {
     width: 100%;
 }
 
