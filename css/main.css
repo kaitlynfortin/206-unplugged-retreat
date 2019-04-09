@@ -604,11 +604,11 @@ About Page
 ========================================================================== */
 .mission h2,
 .contact-section .content-wrapper h2 {
-    width: 
+    width: 960px;
 }
 
 .contact-section .content-wrapper h2 {
-    margin-bottom: 
+    margin-bottom: 0;
 }
 
 
@@ -620,7 +620,7 @@ FAQ Page
 }
 
 .faq-content {
-    flex-basis: 
+    flex-basis: 480px;
 }
 
 }
