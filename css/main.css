@@ -379,6 +379,9 @@ footer .social {
    Modify as content requires.
    ========================================================================== */
 
+/* ==========================================================================
+    Tablet Styles
+   ========================================================================== */
 @media only screen and (min-width: 768px) {
     /*---- Tablet styles here ----*/
     
@@ -556,10 +559,72 @@ footer .copyright {
     width: 100%;
 }
 
-
+/* ==========================================================================
+    Desktop Styles
+   ========================================================================== */
 @media only screen and (min-width: 1200px) {
     /*Desktop styles here*/
 }
+.content-wrapper {
+    max-width: 960px;
+
+}
+
+/* Hero */
+.hero-area h1 {
+    width: 800px;
+}
+
+/* Aside */
+aside .content-wrapper {
+    justify-content: center;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+    width: 800px;
+}
+
+/* Features */
+.features h1 {
+    width: 800px;
+}
+
+.features article {
+    flex-basis: 160px;
+}
+
+/* Reviews */ 
+.reviews article div {
+    width: 800px;
+}
+
+/* ==========================================================================
+About Page
+========================================================================== */
+.mission h2,
+.contact-section .content-wrapper h2 {
+    width: 
+}
+
+.contact-section .content-wrapper h2 {
+    margin-bottom: 
+}
+
+
+/* ==========================================================================
+FAQ Page
+========================================================================== */
+.faq h2 {
+    width: 100%;
+}
+
+.faq-content {
+    flex-basis: 
+}
+
+}
+
 
 
 
