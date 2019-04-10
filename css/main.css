@@ -203,6 +203,8 @@ footer {
 
 header {
     padding: 15px 0;
+    background: url ('img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
+    background-size: cover; 
 }
 
 header .content-wrapper {
