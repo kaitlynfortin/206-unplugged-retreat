@@ -97,6 +97,70 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* General Styles */
+ 
+html {
+	font-size: 16px;
+}
+ 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+ 
+ul, 
+ol {
+    color: #e2e3ed;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125em;
+}
+ 
+a {
+    color: #e2e3ed;
+    text-decoration: none;
+    border-bottom: 1px solid #3a3a3a;
+
+    
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.25em;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+ 
+h3, 
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125em;
+}
+ 
+p {
+    font-family: 'Open Sans', sans-serif;
+	font-size: .875em;
+}
+ 
+img {
+
+}
+ 
+figure {
+ 
+}
+ 
+address {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125em;
+    font-style: normal;
+}
+ 
+.content-wrapper {
+ 
+}
 
 /* ------------- Base Header - Foot Styles ------------- */
 
@@ -167,9 +231,6 @@ aside {
     padding: 30px 20px;
 }
 
-.form-description {
-
-}
 
 .form {
     padding: 40px 0;
@@ -190,10 +251,6 @@ features .features-items {
     flex-flow: row wrap;
 }
 
-features .article {
-
-}
-
 features p {
     margin: 0;
 }
@@ -201,18 +258,6 @@ features p {
 .features-item-description {
     width: 55%;
     padding: 60px 20px;
-
-}
-
-p .fontawesome-icon {
-
-}
-
-p .features-item-description {
-
-}
-
-article {
 
 }
 
@@ -260,10 +305,6 @@ footer .social {
     display: flex;
     justify-content: center;
     align-items: center;
- }
-
- .copyright {
-
  }
 
 /* About Page */
@@ -622,9 +663,6 @@ FAQ Page
 .faq-content {
     flex-basis: 480px;
 }
-
-}
-
 
 
 
