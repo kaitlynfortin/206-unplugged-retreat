@@ -708,15 +708,21 @@ features p {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-flow: row wrap;
     }
 
     .mission-content p {
-        width: 40%;
+        width: 45%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
     }
 
 
     .contact-section, .content-wrapper h2 {
-        width: 80%;
+        width: 100%;
     }
 
     .contact-content {
@@ -733,12 +739,13 @@ features p {
     /* ==========================================================================
     FAQ Page
     ========================================================================== */
+    
     .faq .content-wrapper {
         justify-content: space-between;
     }
 
     .faq-content {
-        flex-basis: 40%;
+        flex-basis: 100%;
     }
 
     .faq h2 {
@@ -838,7 +845,7 @@ features p {
     }
 
     .faq-content {
-        flex-basis: 35%;
+        flex-basis: 100%;
     }
 
     .faq h4,
