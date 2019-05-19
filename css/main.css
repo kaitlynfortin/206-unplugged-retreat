@@ -737,7 +737,7 @@ features p {
 
 
     /* ==========================================================================
-    FAQ Page
+    FAQ Page - Tablet
     ========================================================================== */
     
     .faq .content-wrapper {
@@ -745,7 +745,7 @@ features p {
     }
 
     .faq-content {
-        flex-basis: 100%;
+        flex-basis: 40%;
     }
 
     .faq h2 {
@@ -841,11 +841,11 @@ features p {
     ========================================================================== */
     .faq h2 {
         width: 100%;
-        font-size: 3eml
+        font-size: 3em;
     }
 
     .faq-content {
-        flex-basis: 100%;
+        flex-basis: 35%;
     }
 
     .faq h4,
